@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>Corinne McCollester</title>  
-  </head>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Corinne McCollester</title>
+</head>
+<!--Navigation section should include WOrk, About and Contact along with social media buttons-->
 
 <body>
-    <header class="navigation">
-      <div class="inline-block logo">
-        <img src="images/CM.png" alt="CM" class="center">
-      </div>
-      <nav class="inline-block">
-        <ul class="inline-block">
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
+  <header class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
-      </nav>
-    <section class="heroImg">
-      <div id="heroImg" class="content">
-        <img src= "images/Ren.png" width="400" height="400" alt="Ren" class="center">
-               <p>UX/UI Designer and Developer with eight years of experience in customer service and retention, combining empathy with problem-solving skills to create the best user experience. Strengths in  strong research skills, creativity, and teamwork combined with an artistic background and an eye for design, make me a valuable asset to any team.</p1>
-               <p>I am passionate about solving design problems, visual storytelling and human-centered design. I specialize in Visual Design. I love when designs are aesthetically pleasing. It is very satisfying when I create a site is fully functional with a clean look. </p2>
-             
-       </div>
-       <button>Resume</button>
-    </section>
-    <footer class="footer">
-      <ul class="ul">
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </Footer>
-   </header>
-  
+      </div>
+    </nav>
+    <div class="inline-block logo">
+      <div class="logo">
+        <img src="images/CM.png" alt="CM" width="100px" height="100px">
+      </div>
+      <div class="welcome">
+        <div class="header">
+          <h1>Hi,</h1>
+          <h2>I'm Corinne McCollester</h2>
+          <h3>UX/UI Designer | Creative Thinker | Developer</h3>
+        </div>
+        <div class="ren">
+          <img src="images/Illustration-removebg-preview (1).png" width="400" height="400" alt="Ren" class="Ren">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Here are the cards for my projects-->
+  <section class="heroImg">
+    <div class="container-fluid">
+      <div class="container">
+
+
+        <div class="row">
+
+          <div class="cardContainer col-lg-4 col-sm-12">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="images/BetterPiggies.png" alt="Better Piggies Rescue">
+              <div class="card-body">
+                <p class="card-text">Better Piggies Rescue</p>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer col-lg-4 col-sm-12">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="images/FryingPan.png" alt="FryingPan" box-shadow: 10px 10px 5px grey>
+              <div class="card-body">
+                <p class="card-text">FryingPan</p>
+              </div>
+            </div>
+          </div>
+          <div class="cardContainer col-lg-4 col-sm-12">
+            <div class="card" style="width: 100%;">
+              <img class="card-img-top" src="images/BizzyAide.png" alt="Bizzy Aide">
+              <div class="card-body">
+                <p class="card-text">Bizzy Aide</p>
+              </div>
+            </div>
+          </div>
+  </section>
+  <footer class="footer">
+    <ul class="ul">
+      <li>Work</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </Footer>
+
+
 </body>
+
 </html>
